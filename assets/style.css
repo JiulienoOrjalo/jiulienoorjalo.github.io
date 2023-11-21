@@ -28,9 +28,25 @@ body {
     font-weight: 500;
 }
 
+@media (max-width: 360px) { 
+
+
+    #myname h1{
+        font-size: 30px;
+        line-height: 33px;
+    
+    }
+    
+}
+
+
+
+
+
+
 
 /* BREAK POINTS AREA */
-@media (max-width: 767.98px) { 
+@media (max-width: 640px) { 
     hr{
         margin-left: 4%;
         margin-right: 4%;
@@ -44,6 +60,8 @@ body {
         margin-left: 5%;
         margin-right: 5%;
     }
+
+
     #aboutme{
         margin-left: 4%;
         margin-right: 4%;
