@@ -28,7 +28,7 @@ body {
     font-weight: 500;
 }
 
-@media (max-width: 360px) { 
+@media (max-width: 320px) { 
 
     #myname h1{
         font-size: 30px;
@@ -51,7 +51,7 @@ body {
 
 
 /* BREAK POINTS AREA */
-@media (max-width: 640px) { 
+@media (max-width: 768px) { 
     hr{
         margin-left: 4%;
         margin-right: 4%;
