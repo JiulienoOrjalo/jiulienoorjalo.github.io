@@ -30,17 +30,22 @@ body {
 
 @media (max-width: 360px) { 
 
-
     #myname h1{
         font-size: 30px;
         line-height: 33px;
-    
+    }
+
+     #portfoliotxt{
+        margin-left: -35px;
+        margin-right: -35px;
     }
     
+    #certiftxt{
+        margin-left: -35px;
+        margin-right: -35px;
+    }
+
 }
-
-
-
 
 
 
@@ -61,11 +66,11 @@ body {
         margin-right: 5%;
     }
 
-
     #aboutme{
         margin-left: 4%;
         margin-right: 4%;
     }
+
     #experience{
         margin-top: 5%; 
         margin-left: 4%;
@@ -88,8 +93,8 @@ body {
         margin-right: 4%;
     }
     #mystory{
-        margin-left: 4%;
-        margin-right: 4%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     #education{ 
         margin-top: 4%;
