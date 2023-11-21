@@ -1,0 +1,289 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: rgb(102, 102, 102);
+    background-color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.714em;
+}
+#profile{
+    border-radius: 50%;
+    width: 65%;
+}
+#project1{
+    width: 35%;
+    float: right;
+}
+#boldtext{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 14px;
+    line-height: 1.885em;
+    font-weight: 600;
+    margin-bottom: -3px;
+}
+#btnlink{
+    text-decoration: none;
+    color: #141414;
+    font-weight: 500;
+}
+
+
+/* BREAK POINTS AREA */
+@media (max-width: 767.98px) { 
+    hr{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #profile{
+        border-radius: 50%;
+        width: 50%;
+        margin-top: 10%;
+    }
+    #myname{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #aboutme{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #experience{
+        margin-top: 5%; 
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #portfolio{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #btnallproject{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #btncontact{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #aboutimg{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #mystory{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #education{ 
+        margin-top: 4%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #boxexperience{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+ 
+}
+
+@media (max-width: 991.98px) { 
+    #profile{
+        border-radius: 50%;
+        width: 50%;
+        margin-top: 5%;
+    }
+    #experience{
+        margin-top: 5%;
+    }
+    #aboutme #btnallcontact{
+        margin-top: 15%;
+    }
+
+}
+/* BREAK POINTS AREA */
+
+
+
+h1{
+    color: black;
+    font-weight: 600;
+    display: block;
+    font-size: 34px;
+}
+h3{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 26px;
+    line-height: 1.385em;
+    font-weight: 500;
+}
+#pastexperience{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 20px;
+    line-height: 1.885em;
+    font-weight: 500;
+}
+#position{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 1.885em;
+    font-weight: 400;
+    margin-bottom: -3px;
+}
+
+.link-text{
+    font-size: 15px;
+    line-height: 1.143em;
+    font-weight: 500;
+    color: #141414;
+    display: inline-block;
+    transition: color 300ms ease;
+    display: inline-block;
+}
+.link-text:hover{
+    color: #141414;
+}
+
+
+
+
+/* --------------------------
+PORTOFOLIO AREA 
+--------------------------*/
+
+#portfoliotitle{
+    margin-bottom: -3px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* .portfolio #portfolioimg{
+    padding-left: 5%;
+} */
+
+.portfolio .card-body{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.portfolio .card{
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.02);
+    border-color: #f4f4f4;
+}
+.portfolio .card:hover{
+    border-color: #141414;
+    transition: 1s;
+}
+
+
+/* --------------------------
+EDUCATION AREA 
+--------------------------*/
+#titleeducation{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 20px;
+    line-height: 1.885em;
+    font-weight: 500;
+}
+
+
+/* --------------------------
+ALL EXPERIENCE AREA
+--------------------------*/
+#company{
+    margin-bottom: -3px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#description{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+/* --------------------------
+MY SKILLS AREA
+--------------------------*/
+#skills{
+    margin-bottom: -3px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#cardbox{
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.02);
+    border-color: #f4f4f4;
+    border-radius: 12px;
+}
+
+
+
+/* --------------------------
+SOCIAL MEDIA AREA
+--------------------------*/
+
+.social #skills{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.social #cardbox:hover{
+    border-color: #141414;
+    transition: 1s;
+}
+
+/* --------------------------
+CONTACT PAGE
+--------------------------*/
+
+.form-control:focus{
+    border-color: #141414;
+    box-shadow: none;
+  }
+
+/* --------------------------
+GET IN TOUCH AREA
+--------------------------*/
+#getin{
+    margin-bottom: -3px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+#getincontact{
+    color: #141414;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+/* --------------------------
+CERTIFICATE AREA
+--------------------------*/
+
+#certificatetitle{
+    margin-bottom: -3px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#certificatedescription{
+    font-size: 14px;
+    
+}
