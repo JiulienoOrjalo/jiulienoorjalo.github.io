@@ -15,6 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <!-- Option 1: Include in HTML -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style.css">
           
     <!-- Optional JavaScript -->
@@ -86,7 +87,7 @@
     </section>
 
 
-    <section id="about" class="about">
+    <section id="about" class="about" data-aos="fade-up">
       <div class="container">
           <div class="row">
 
@@ -574,9 +575,9 @@
 </section>
 
 <!-- ======= MY SKILLS START ======= -->
-<section id="portfolio" class="portfolio">
+<section id="portfolio" class="portfolio" data-aos="fade-up">
   <div class="container">
-      <div class="row" data-aos="fade-up">
+      <div class="row">
 
           <div class="col-lg-2"> </div>
 
@@ -591,7 +592,7 @@
           </div>
 
           <div class="col-lg-4 mb-lg-3 mb-md-3 mb-3">
-            <div id="cardbox" class="card p-2 mb-3 bg-white ">
+            <div id="cardbox" class="card p-2 mb-3 bg-white">
               <div class="card-body">
                 <img src="../img/graphic design.svg" class="mb-lg-3 mb-md-3 mb-3"  alt="" style="border-radius: 8px;">
                 <h4 id="skills" class="pt-lg-2 pt-md-2 pt-2 pb-lg-3 pb-md-3 pb-3">Graphic Design</h4>
@@ -747,6 +748,10 @@
 <!-- ======= Social Media END ======= -->
 <br>
 <br>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
 
