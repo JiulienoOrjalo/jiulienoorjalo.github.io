@@ -5,6 +5,9 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.714em;
+    background-image: radial-gradient(circle at 1px 1px, rgb(218, 207, 207) 1px, transparent 0);
+    background-size: 25px 25px;
+    background-position: -20px -20px;
 }
 #profile{
     border-radius: 50%;
