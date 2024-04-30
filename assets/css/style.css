@@ -1722,3 +1722,26 @@ section {
 #seeall-btn:hover {
   background: #01076a;
 }
+
+
+/*--------------------------------------------------------------
+# Download Resume Button
+--------------------------------------------------------------*/
+
+#resume-btn {
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 100px;
+
+  background: #2487ce;
+
+}
+#resume-btn:hover {
+  background: #01076a;
+  outline-style: solid;
+  outline-color: #ffffff;
+  outline-width: thin;
+}
+
