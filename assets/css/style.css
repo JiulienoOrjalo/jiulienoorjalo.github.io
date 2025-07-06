@@ -1745,3 +1745,18 @@ section {
   outline-width: thin;
 }
 
+/*--------------------------------------------------------------
+# FEATURE PROJECT
+--------------------------------------------------------------*/
+.services .feature-box {
+  text-align: center;
+  padding: 32px;
+  transition: all ease-in-out 0.3s;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+  
+}
+.services .feature-box h6 {
+  color: #aaaaaa;
+}
+
