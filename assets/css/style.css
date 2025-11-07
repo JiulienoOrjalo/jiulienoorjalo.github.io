@@ -1760,3 +1760,18 @@ section {
   color: #aaaaaa;
 }
 
+/*--------------------------------------------------------------
+# FEATURE PROJECT ZOOM EFFECT
+--------------------------------------------------------------*/
+
+.image-container {
+  overflow: hidden; /* Prevent zoom from overflowing */
+}
+
+.imagezoom {
+  transition: transform 0.4s ease;
+}
+
+.imagezoom:hover {
+  transform: scale(1.05);
+}
