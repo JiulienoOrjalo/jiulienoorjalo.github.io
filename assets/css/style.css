@@ -1712,16 +1712,16 @@ section {
 # See All Design Button
 --------------------------------------------------------------*/
 #seeall-btn {
-  background: #2487ce;
+  background: #E5E7EB;
   border: 0;
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
 }
-#seeall-btn:hover {
+/* #seeall-btn:hover {
   background: #01076a;
-}
+} */
 
 
 /*--------------------------------------------------------------
