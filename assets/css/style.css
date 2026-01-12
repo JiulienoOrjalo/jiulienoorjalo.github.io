@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2487ce;
+  background: #252527;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -198,7 +198,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #01076a;
+  color: #252527;
 }
 
 .navbar .getstarted,
@@ -248,7 +248,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #2487ce;
+  color: #252527;
 }
 
 .navbar .dropdown:hover>ul {
@@ -347,7 +347,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #2487ce;
+  color: #252527;
 }
 
 .navbar-mobile .getstarted,
@@ -399,6 +399,11 @@ h6 {
   background: url("../img/coverpage.webp") top center;
   background-size: cover;
   position: relative;
+
+
+  background-attachment: scroll; /* override fixed for smoother JS parallax */
+  background-position: center 0px;
+  will-change: background-position;
 }
 
 #hero:before {
@@ -1303,13 +1308,13 @@ section {
 
 .certificates .member .social a {
   transition: color 0.3s;
-  color: #124265;
+  color: #252527;
   margin: 0 10px;
   display: inline-block;
 }
 
 .certificates .member .social a:hover {
-  color: #2487ce;
+  color: #252527;
 }
 
 .certificates .member .social i {
@@ -1326,7 +1331,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #124265;
+  color: #252527;
   text-align: left;
 }
 
@@ -1474,7 +1479,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #2487ce;
+  background: #252527;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1690,7 +1695,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2487ce;
+  background: #252527;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1729,20 +1734,20 @@ section {
 --------------------------------------------------------------*/
 
 #resume-btn {
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
+  border: 1px solid #ffffff;
+  margin-top: 16px;
+  padding: 16px 32px;
+  color: #ffffff;
   transition: 0.4s;
   border-radius: 100px;
 
-  background: #2487ce;
-
 }
 #resume-btn:hover {
-  background: #01076a;
+  background: #ffffff;
   outline-style: solid;
-  outline-color: #ffffff;
+  outline-color: #252527;
   outline-width: thin;
+  color: #252527;
 }
 
 /*--------------------------------------------------------------
