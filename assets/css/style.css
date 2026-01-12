@@ -540,7 +540,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f8fbfe;
+  background-color: #fbfbfb;
 }
 
 .section-title {
@@ -1506,7 +1506,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f8fbfe;
+  background: #fbfbfb;
   min-height: 40px;
   margin-top: 72px;
 }
@@ -1562,7 +1562,7 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f8fbfe;
+  background: #fbfbfb;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
